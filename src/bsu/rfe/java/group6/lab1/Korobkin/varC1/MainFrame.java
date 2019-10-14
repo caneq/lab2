@@ -20,8 +20,8 @@ public class MainFrame extends JFrame{
     private JTextField textFieldRes;
     private ButtonGroup funcRadioButtons = new ButtonGroup();
     private ButtonGroup memRadioButtons = new ButtonGroup();
-    private ImageIcon iconFunc1 = new ImageIcon("src/bsu/rfe/java/group6/lab1/Korobkin/varC1/f1.jpg");
-    private ImageIcon iconFunc2 = new ImageIcon("src/bsu/rfe/java/group6/lab1/Korobkin/varC1/f2.jpg");
+    private ImageIcon iconFunc1 = new ImageIcon("src/f1.jpg");
+    private ImageIcon iconFunc2 = new ImageIcon("src/f2.jpg");
     private JLabel labelImg = new JLabel();
 
     private double func1(double x, double y, double z) throws ArithmeticException{
