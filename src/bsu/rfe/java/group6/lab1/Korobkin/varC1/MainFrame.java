@@ -37,7 +37,8 @@ public class MainFrame extends JFrame{
         if(x < 0) throw new ArithmeticException("корень из отрицательного числа");
         double tmp = Math.exp(Math.cos(x)) + Math.pow(Math.sin(Math.PI * z), 2);
         if(tmp < 0) throw new ArithmeticException("корень из отрицательного числа");
-        return Math.pow((Math.cos(Math.exp(x)) + Math.log((1 + y) * (1 + y)) + Math.sqrt(tmp) + Math.sqrt(1 / x) + Math.cos(y * y)), Math.sin(z));
+        return Math.pow((Math.cos(Math.exp(x)) + Math.log((1 + y) * (1 + y)) + Math.sqrt(tmp)
+                + Math.sqrt(1 / x) + Math.cos(y * y)), Math.sin(z));
     }
 
     private Box hboxFormulaType = Box.createHorizontalBox();
